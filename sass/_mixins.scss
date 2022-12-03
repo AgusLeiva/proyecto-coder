@@ -1,0 +1,10 @@
+@mixin flex{
+    display: flex;
+    padding: 10px;
+}
+
+@mixin column{
+    flex-direction: 25%;
+    padding: 10px;
+    padding-left: 10px;
+}
