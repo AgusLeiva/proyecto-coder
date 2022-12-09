@@ -16,7 +16,9 @@
         <header class="contenedor">
             <div>
                   <div class="navegacion">
-                      <img class="logo" src="./img/logo2.svg" alt="">
+                    <a href="#">
+                      <img class="logo" src="./img/logo2.svg" alt="Logo de TaylorSwift">
+                    </a>
                       <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: transparent;">
                          <div class="container-fluid">
                            
@@ -72,7 +74,14 @@
             <section class="contenedorDos">
                 <div class="contenedorInicio">   
                         <h2 class="subtitulo">Premios</h2>                 
-                        <img class="img" src="./img/premiosTay5.jpg" alt="Portada de Premios" loading="lazy">  
+                        <img class="img" 
+                        src="./img/premiosTay5.jpg" alt="Portada de Premios" loading="lazy"
+                        srcset="
+                        ./img/premiosTay5-mobile.jpg 412w
+                        ./img/premiosTay5.jpg 768w
+                        "
+                        sizes="(max-with:768px) 100vh - 10px, 40vh"
+                        >  
                                       
                         <p class="parrafoSecundario">Taylor a lo largo de su carrera ha sido nomibada a varios premios A los premios Grammy, American Music awards, Billboard Music Awards.</p>
                         <p class="parrafoSecundario">  </p>
@@ -81,7 +90,9 @@
 
                 <div class="contenedorInicio">    
                          <h2 class="subtitulo">Discografia</h2>                
-                        <img class="img" src="./img/discosTay5.jpg" alt="Portada de Discos" loading="lazy"> 
+                        <img class="img" srcset="./img/discosTay5.jpg 767w"
+                        
+                        src="./img/discosTay5.jpg" alt="Portada de Discos" loading="lazy"> 
                                          
                         <p class="parrafoSecundario">La discografía de Taylor Swift, cantante de géneros country y pop, está conformada por diez álbumes de estudio y dos regrabados. 
                           </p>
@@ -101,7 +112,7 @@
         </main>
 
         <footer class="piedePagina">
-            <img class="logopieTay" src="./img/logo2.svg" alt="Logo de su nombre TaylorSwift">
+            
              
             <p class="parrafoPie">Forma parte de la comunidad Swiftie en discord</p>
             <div class="logoPie">
