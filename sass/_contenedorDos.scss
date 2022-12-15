@@ -1,0 +1,28 @@
+.contenedorDos{
+    @include flex;
+    .contenedorInicio{
+        @include column;       
+    }
+    .subtitulo{
+        color: $color-texto;
+        font-size: 1.1rem;
+        font-family: $tipografia-parrafos;
+        margin-top: 1px;
+        text-align: center;    
+    } .img{
+        width: 64vh;
+        height: 60%;
+        border-radius: 5px 5px;
+        margin: au;
+    } .img img{
+        width: 100%;
+        height: 100%;
+    } .contenedorInicio img{
+        margin-top: 10px;
+    }.parrafoSecundario{
+        color: $color-texto;
+        font-size: 0.9rem;
+        font-family: $tipografia-parrafos;
+        text-align: center;
+    }
+}
