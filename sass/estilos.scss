@@ -8,11 +8,10 @@
 @import "contenedorTres";
 @import "footer";
 @import "aside";
- /*
-*/
+@import "contenedorUno-comunidad";
+@import "footerComunidad";
 
-
-
+/*
 .tituloComunidad{
     color: $color-texto;
     font-size: 1.5rem;
@@ -20,22 +19,24 @@
     font-family: $tipografia-parrafos;
     margin-top: 300px;
     margin-left: 500px;
-}
-
-.parrafoComunidad{
+} .parrafoComunidad{
     color: $color-texto;
     font-size: 1rem;
     text-align: center;
     font-family: $tipografia-parrafos;
     margin-left: 500px;
-}
-
-.logoComunidad{
+}.logoComunidad{
     display: flex;
     align-items: center;
     height: 100%;
     margin-left: 500px;
 }
+*/
+
+
+
+
+
 
 
 /*CELULAR */
@@ -177,16 +178,6 @@
             }
     } 
     
-    
-   
-    .subtituloPie{
-        color: white;
-        font-size: 2rem;
-        font-family: 'Courier New', Courier, monospace;
-        text-align: center;
-    }
-    
-    
     .parrafoPie{
         color: white;
         font-size: 1rem;
@@ -194,15 +185,12 @@
         text-align: center;
     }
 
-
     .subtituloPie{
         color: white;
         font-size: 1rem;
         font-family: 'Courier New', Courier, monospace;
         text-align: center;
-    }
-    
-    
+    }   
     .parrafoPie{
         color: white;
         font-size: 1rem;
@@ -229,6 +217,22 @@
     .logoComunidad{
                    
         margin-left: 100px;
+    }
+
+    .parrafopieComunidad{
+        padding-top: 350px;
+        font-family: $tipografia-parrafos;
+        color: $color-texto;
+        margin-left: 100px;
+        text-align: center;
+        font-size: 1rem;
+    }
+    
+    .logoDos{
+        display: flex;
+        align-items: center;
+        height: 100%;
+        margin-left: 300px;
     }
     
  }

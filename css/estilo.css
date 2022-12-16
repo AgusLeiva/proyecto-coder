@@ -148,8 +148,6 @@ aside .titulo {
   margin-top: 12px;
   text-align: center; }
 
-/*
-*/
 .tituloComunidad {
   color: white;
   font-size: 1.5rem;
@@ -171,6 +169,39 @@ aside .titulo {
   height: 100%;
   margin-left: 500px; }
 
+.parrafopieComunidad {
+  padding-top: 400px;
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+  margin-left: 500px; }
+
+.logoDos {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin-left: 650px; }
+
+/*
+.tituloComunidad{
+    color: $color-texto;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: $tipografia-parrafos;
+    margin-top: 300px;
+    margin-left: 500px;
+} .parrafoComunidad{
+    color: $color-texto;
+    font-size: 1rem;
+    text-align: center;
+    font-family: $tipografia-parrafos;
+    margin-left: 500px;
+}.logoComunidad{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-left: 500px;
+}
+*/
 /*CELULAR */
 @media (max-width: 768px) {
   .contenedor {
@@ -290,11 +321,6 @@ aside .titulo {
       font-family: 'Courier New', Courier, monospace;
       margin-top: auto;
       text-align: center; }
-  .subtituloPie {
-    color: white;
-    font-size: 2rem;
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center; }
   .parrafoPie {
     color: white;
     font-size: 1rem;
@@ -324,4 +350,16 @@ aside .titulo {
     font-family: 'Courier New', Courier, monospace;
     margin-left: 100px; }
   .logoComunidad {
-    margin-left: 100px; } }
+    margin-left: 100px; }
+  .parrafopieComunidad {
+    padding-top: 350px;
+    font-family: "Courier New", Courier, monospace;
+    color: white;
+    margin-left: 100px;
+    text-align: center;
+    font-size: 1rem; }
+  .logoDos {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-left: 300px; } }
