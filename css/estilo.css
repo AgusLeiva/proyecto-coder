@@ -181,27 +181,6 @@ aside .titulo {
   height: 100%;
   margin-left: 650px; }
 
-/*
-.tituloComunidad{
-    color: $color-texto;
-    font-size: 1.5rem;
-    text-align: center;
-    font-family: $tipografia-parrafos;
-    margin-top: 300px;
-    margin-left: 500px;
-} .parrafoComunidad{
-    color: $color-texto;
-    font-size: 1rem;
-    text-align: center;
-    font-family: $tipografia-parrafos;
-    margin-left: 500px;
-}.logoComunidad{
-    display: flex;
-    align-items: center;
-    height: 100%;
-    margin-left: 500px;
-}
-*/
 /*CELULAR */
 @media (max-width: 768px) {
   .contenedor {
@@ -361,5 +340,5 @@ aside .titulo {
   .logoDos {
     display: flex;
     align-items: center;
-    height: 100%;
-    margin-left: 300px; } }
+    height: 100px;
+    margin-left: 100px; } }
