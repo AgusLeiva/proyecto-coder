@@ -300,6 +300,8 @@ aside .titulo {
       font-family: 'Courier New', Courier, monospace;
       margin-top: auto;
       text-align: center; }
+    .contenedorTres .logoSpotify {
+      width: 500px; }
   .parrafoPie {
     color: white;
     font-size: 1rem;
